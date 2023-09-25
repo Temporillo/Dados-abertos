@@ -1,0 +1,7 @@
+##Exemplo para a ID:584
+import requests
+url1 ='https://dadosabertos.camara.leg.br/api/v2/blocos/584'
+
+request1= requests.get(url1)
+print(request1)
+print(request1.json())
